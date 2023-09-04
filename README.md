@@ -2,10 +2,15 @@
 
 > Angular translations extractor (plugin for [@ngx-translate](https://github.com/ngx-translate/core))
 
-> ✓ _Angular 14, Ivy and Angular Universal (SSR) compatible_
+> ✓ _Angular 16, Ivy and Angular Universal (SSR) compatible_
 
 Extract translatable (ngx-translate) strings and save as a JSON or Gettext pot file.
 Merges with existing strings if the output file already exists.
+
+## !!! Temporary Repository
+
+This is a temporary repository with the only change being that the angular compiler v16 is used.
+This means that self-closing tags are supported.
 
 ## History
 
@@ -13,21 +18,22 @@ This project was originally created by [Kim Biesbjerg](https://github.com/biesbj
 Unfortunately he was unable to continue to maintain it so the Vendure team agreed to take over maintenance of a fork.
 This is a fork of the latter for experimentation and to cater to some personal modifications.
 
+
 ## Install
 
 Install the package in your project:
 
 ```bash
-npm install @colsen1991/ngx-translate-extract --save-dev
+npm install @find-ida/ngx-translate-extract --save-dev
 ```
 
 Choose the version corresponding to your Angular version:
 
-| Angular    | ngx-translate-extract                                                                      |
-|------------|--------------------------------------------------------------------------------------------|
-| 14         | 8.0.5+                                                                                     |
-| 13         | 8.0.5+                                                                                     |
-| 8.x – 12.x | [@biesbjerg/ngx-translate-extract](https://github.com/biesbjerg/ngx-translate-extract) 7.x |
+| Angular    | ngx-translate-extract                                                                           |
+|------------|-------------------------------------------------------------------------------------------------|
+| 16         | 16.2.0+                                                                                         |
+| 13 - 14    | 8.0.5+ [@colsen1991/ngx-translate-extract](https://github.com/Husbanken/ngx-translate-extract)  |
+| 8.x – 12.x | [@biesbjerg/ngx-translate-extract](https://github.com/biesbjerg/ngx-translate-extract) 7.x      |
 
 Add a script to your project's `package.json`:
 

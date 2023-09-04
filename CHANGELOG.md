@@ -1,6 +1,6 @@
 # Changelog
 
-## v8.0.9 (2023-09-01)
+## 16.2.0 (2023-09-04)
 
 - Support for Angular 16 (Self-Closing-Tags)
 
